@@ -49,5 +49,5 @@ I'm always open to new opportunities and collaborations. Let's create something 
 
 ## 📈 Contributions
 
-![Commits Over Time](https://ghchart.rshah.org/akbarpashamohammad)
+![Commits Over Time](https://ghchart.rshah.org/akbartechdynamics)
 
