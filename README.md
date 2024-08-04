@@ -1,15 +1,38 @@
-## Hi there 👋
+# Akbar Pasha Mohammad
 
+Welcome to my GitHub profile! I'm Akbar Pasha Mohammad, a proficient developer with expertise in web applications, machine learning, and cloud technologies. Here, you'll find projects showcasing my skills and contributions to various domains.
 
-**akbartechdynamics/akbartechdynamics** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🚀 Skills & Expertise
 
-Here are some ideas to get you started:
+### Web Development
+- **Django Framework**: Proficient in developing robust web applications.
+- **Django REST Framework**: Experienced in building scalable RESTful APIs.
+- **Flask Framework**: Skilled in creating lightweight web applications.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+### Machine Learning & AI
+- **Machine Learning Models**: Knowledgeable in developing and deploying machine learning models.
+- **Artificial Intelligence Models**: Expertise in crafting AI solutions for various applications.
+- **Natural Language Processing (NLP)**: Experienced in developing chatbots and NLP-based solutions.
+
+### Cloud & DevOps
+- **AWS EC2**: Experience in managing and deploying applications on AWS EC2 instances.
+- **PythonAnywhere**: Proficient in using PythonAnywhere for hosting Python applications.
+- **MySQL & MongoDB**: Skilled in database management and operations.
+- **Docker**: Knowledgeable in containerizing applications using Docker.
+- **Redis Cache**: Experience in implementing caching solutions with Redis.
+
+### Testing & Automation
+- **Selenium**: Proficient in browser automation and testing.
+- **Postman**: Experienced in API testing and automation.
+
+## 🌐 Online Presence
+
+- **Freelance Website**: [akbartechdynamics.in](http://akbartechdynamics.in)
+- **Personal Website**: [akbartechdynamics.github.io/acs](https://akbartechdynamics.github.io/acs/)
+- **LinkedIn**: [linkedin.com/in/akbar-pasha-mohammad](https://www.linkedin.com/in/akbar-pasha-mohammad-68b817140?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BzHg28qXKRiK4CuKmvFgPQw%3D%3D)
+
+## 📫 Get in Touch
+
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/akbar-pasha-mohammad-68b817140?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BzHg28qXKRiK4CuKmvFgPQw%3D%3D) or check out my [personal website](https://akbartechdynamics.github.io/acs/) for more information.
+
+I'm always open to new opportunities and collaborations. Let's create something amazing together!
