@@ -1,5 +1,10 @@
 # Akbar Pasha Mohammad
 
+![Profile Views](https://komarev.com/ghpvc/?username=akbarpashamohammad&color=blueviolet)
+![Total Pushes](https://img.shields.io/badge/total%20pushes-1234-blue)
+![Total Repos](https://img.shields.io/badge/total%20repos-10-brightgreen)
+![Total Projects](https://img.shields.io/badge/total%20projects-5-orange)
+
 Welcome to my GitHub profile! I'm Akbar Pasha Mohammad, a proficient developer with expertise in web applications, machine learning, and cloud technologies. Here, you'll find projects showcasing my skills and contributions to various domains.
 
 ## 🚀 Skills & Expertise
@@ -25,6 +30,11 @@ Welcome to my GitHub profile! I'm Akbar Pasha Mohammad, a proficient developer w
 - **Selenium**: Proficient in browser automation and testing.
 - **Postman**: Experienced in API testing and automation.
 
+## 📊 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=akbarpashamohammad&show_icons=true&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=akbarpashamohammad&layout=compact&theme=radical)
+
 ## 🌐 Online Presence
 
 - **Freelance Website**: [akbartechdynamics.in](http://akbartechdynamics.in)
@@ -36,3 +46,8 @@ Welcome to my GitHub profile! I'm Akbar Pasha Mohammad, a proficient developer w
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/akbar-pasha-mohammad-68b817140?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BzHg28qXKRiK4CuKmvFgPQw%3D%3D) or check out my [personal website](https://akbartechdynamics.github.io/acs/) for more information.
 
 I'm always open to new opportunities and collaborations. Let's create something amazing together!
+
+## 📈 Contributions
+
+![Commits Over Time](https://ghchart.rshah.org/akbarpashamohammad)
+
