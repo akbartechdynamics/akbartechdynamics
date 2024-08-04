@@ -32,8 +32,8 @@ Welcome to my GitHub profile! I'm Akbar Pasha Mohammad, a proficient developer w
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=akbarpashamohammad&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=akbarpashamohammad&layout=compact&theme=radical)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=akbartechdynamics&show_icons=true&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=akbartechdynamics&layout=compact&theme=radical)
 
 ## 🌐 Online Presence
 
