@@ -18,7 +18,7 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/css/main.css" rel="stylesheet">
-  <link rel="canonical" href="https://akbartechdynamics.in/blog1-details.html">
+  <link rel="canonical" href="https://akbartechdynamics.in/blog5-details.html">
   <meta property="og:title" content="AkbarTechDynamics | Expert Thesis Support for Academic Success">
   <meta property="og:description" content="Innovative solutions for business growth, specializing in web applications, AI, ML, and data science.">
   <meta property="og:image" content="https://akbartechdynamics.in/assets/img/oMkMZZ01.svg">
@@ -57,7 +57,7 @@
           <li><a href="index.html#services">Services</a></li>
           <li><a href="index.html#contact">Contact</a></li>
           <li><a href="blogs.html">Blog</a></li>
-          <li><a href="careers.html">Careers</a></li> <!-- Corrected link -->
+          <li><a href="careers.html">Careers</a></li> 
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -131,7 +131,7 @@
                   <p>The conclusion summarizes your research and its significance. It should restate your research question, highlight key findings, and reflect on the broader implications of your study.</p>
                   <h4>References</h4>
                   <p>Accurate and comprehensive referencing is crucial in a thesis. Ensure all sources are cited correctly according to the required academic style.</p>
-                  
+                  <img src="assets/img/blog/5.png" class="img-fluid" alt="AI-driven project management tools">
                   <h3>Benefits of Expert Thesis Support</h3>
                   <h4>Personalized Approach</h4>
                   <p>Every student and thesis is unique. Our experts offer personalized support tailored to your specific needs, academic level, and research field.</p>
@@ -164,6 +164,35 @@
               </article>
             </div>
           </section><!-- /Blog Details Section -->
+        </div>
+        <div class="col-lg-4 sidebar">
+          <div class="widgets-container">
+            <div class="recent-posts-widget widget-item">
+              <h3 class="widget-title">Recent Posts</h3>
+              <div id="content-container"></div>
+              <div id="recent-posts-content"></div>        
+                <script>
+                  document.addEventListener('DOMContentLoaded', function() {
+                    fetch('RecentPosts.html')
+                    .then(response => {
+                      if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                      }
+                      return response.text();
+                    })
+                    .then(data => {
+                      let tempDiv = document.createElement('div');
+                      tempDiv.innerHTML = data;
+                        let content = tempDiv.querySelector('#recent-posts-content');
+                        document.getElementById('content-container').innerHTML = content.innerHTML;
+                      })
+                      .catch(error => {
+                        console.error('There was a problem with the fetch operation:', error);
+                      });
+                     })
+                </script>
+            </div>  
+          </div>
         </div>
       </div>
     </div>
