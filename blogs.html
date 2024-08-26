@@ -41,9 +41,118 @@
     ]
   }
   </script>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
 
+    #blog-posts {
+      width: 100%;
+      margin: 20px auto;
+    }
+
+    article {
+      background: #fff;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .post-img img {
+      width: 90%;
+      height: 50%;
+      border-radius: 5px;
+    }
+
+    h2.title {
+      font-size: 1.8em;
+      margin: 10px 0;
+    }
+
+    h2.title a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    h2.title a:hover {
+      color: #007bff;
+    }
+
+    .meta-top {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      font-size: 0.9em;
+      color: #666;
+    }
+
+    .meta-top .author {
+      font-weight: bold;
+    }
+
+    .meta-top .date {
+      font-style: italic;
+    }
+
+    .content {
+      margin-top: 10px;
+    }
+
+    .content p {
+      margin-bottom: 10px;
+    }
+
+    .read-more a {
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+      font-size: large;
+    }
+
+    .read-more a:hover {
+      text-decoration: underline;
+    }
+
+    /* Pagination Styles */
+    #pagination-controls {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    #pagination-controls a {
+      display: inline-block;
+      padding: 10px 15px;
+      margin: 0 5px;
+      text-decoration: none;
+      color: #007bff;
+      border: 1px solid #007bff;
+      border-radius: 5px;
+    }
+
+    #pagination-controls a:hover {
+      background-color: #007bff;
+      color: #fff;
+    }
+
+    #pagination-controls a.active {
+      background-color: #007bff;
+      color: #fff;
+      border: 1px solid #007bff;
+    }
+
+    #pagination-controls a.disabled {
+      color: #ccc;
+      border-color: #ccc;
+      cursor: not-allowed;
+    }
+  </style>
 </head>
-
 <body class="index-page">
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
@@ -88,259 +197,9 @@
     
             <!-- Blog Posts Section -->
             <section id="blog-posts" class="blog-posts section">
-    
-              <div class="container">
-    
-                <div class="row gy-4">
-
-                  <div class="col-12">
-                    <article>
-    
-                      <div class="post-img">
-                        <img src="assets/img/blog/8.jpg" alt="" class="img-fluid">
-                      </div>
-    
-                      <h2 class="title">
-                        <a href="blog8-details.html">Presenting Your Project with Confidence Starts with the Right Support. Let's Make It Happen!</a>
-                      </h2>
-    
-                      <div class="meta-top">
-                        <ul>
-                          <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a>Akbar pasha</a></li>
-                          <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a><time datetime="2024-08-23">Aug 23, 2024</time></a></li>
-                        </ul>
-                      </div>
-    
-                      <div class="content">
-                        <p>
-                          Presenting your project confidently can be a game-changer, whether in academics, business, or tech development. The success of your project hinges not only on the quality of your work but also on how effectively you present it. Presenting your project with confidence starts with the right support. Let’s make it happen!. With the right tools, guidance, and strategies, you can deliver a powerful presentation that highlights your hard work and expertise.
-                        </p>
-    
-                        <div class="read-more">
-                          <a href="blog8-details.html">Read More</a>
-                        </div>
-                      </div>
-    
-                    </article>
-                  </div>
-
-                  <div class="col-12">
-                    <article>
-    
-                      <div class="post-img">
-                        <img src="assets/img/blog/7.jpg" alt="" class="img-fluid">
-                      </div>
-    
-                      <h2 class="title">
-                        <a href="blog7-details.html">From Web Applications to Data Science Projects, We Offer Tailored Solutions for Every Academic Need. Discover Our Services!</a>
-                      </h2>
-    
-                      <div class="meta-top">
-                        <ul>
-                          <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a>Akbar pasha</a></li>
-                          <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a><time datetime="2024-08-22">Aug 22, 2024</time></a></li>
-                        </ul>
-                      </div>
-    
-                      <div class="content">
-                        <p>
-                          In today’s rapidly evolving academic landscape, students face a diverse range of challenges that require specialized skills and innovative solutions. From web applications to data science projects, we offer tailored solutions for every academic need. Discover our services and how we can help you succeed in your studies, no matter the complexity or field of study.
-                        </p>
-    
-                        <div class="read-more">
-                          <a href="blog7-details.html">Read More</a>
-                        </div>
-                      </div>
-    
-                    </article>
-                  </div>
-
-                  <div class="col-12">
-                    <article>
-    
-                      <div class="post-img">
-                        <img src="assets/img/blog/6.png" alt="" class="img-fluid">
-                      </div>
-    
-                      <h2 class="title">
-                        <a href="blog6-details.html">When You Realize Your Thesis Is Due Next Week... Don't Worry, We've Got Your Back!</a>
-                      </h2>
-    
-                      <div class="meta-top">
-                        <ul>
-                          <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a>Akbar pasha</a></li>
-                          <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a><time datetime="2024-08-21">Aug 21, 2024</time></a></li>
-                        </ul>
-                      </div>
-    
-                      <div class="content">
-                        <p>
-                          The realization that your thesis is due next week can be overwhelming. As the deadline looms, stress levels rise, and the pressure to produce a high-quality thesis in a short time can seem insurmountable. But don't worry, we've got your back! Whether you're just starting or need to refine your final draft, our expert support can help you meet your deadline and achieve the success you deserve.
-                        </p>
-    
-                        <div class="read-more">
-                          <a href="blog6-details.html">Read More</a>
-                        </div>
-                      </div>
-    
-                    </article>
-                  </div>
-
-                  <div class="col-12">
-                    <article>
-    
-                      <div class="post-img">
-                        <img src="assets/img/blog/5.png" alt="" class="img-fluid">
-                      </div>
-    
-                      <h2 class="title">
-                        <a href="blog5-details.html">Struggling with Your Thesis? Our Experts Provide Personalized Support to Ensure You Meet All Requirements. Get in Touch Today!</a>
-                      </h2>
-    
-                      <div class="meta-top">
-                        <ul>
-                          <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a>Akbar pasha</a></li>
-                          <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a><time datetime="2024-08-16">Aug 16, 2024</time></a></li>
-                        </ul>
-                      </div>
-    
-                      <div class="content">
-                        <p>
-                          Writing a thesis can be one of the most challenging tasks in your academic journey. It requires extensive research, critical thinking, and a clear, structured presentation of your findings. Struggling with your thesis? Our experts provide personalized support to ensure you meet all requirements. Get in touch today! Let's explore how personalized expert support can make the thesis-writing process smoother and more successful.
-                        </p>
-    
-                        <div class="read-more">
-                          <a href="blog5-details.html">Read More</a>
-                        </div>
-                      </div>
-    
-                    </article>
-                  </div>
-
-                  <div class="col-12">
-                    <article>
-    
-                      <div class="post-img">
-                        <img src="assets/img/blog/4.png" alt="" class="img-fluid">
-                      </div>
-    
-                      <h2 class="title">
-                        <a href="blog4-details.html">AI Isn't Just for Tech Giants. It's Here to Make Your Academic Journey Smoother.</a>
-                      </h2>
-    
-                      <div class="meta-top">
-                        <ul>
-                          <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a>Akbar pasha</a></li>
-                          <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a><time datetime="2024-08-15">Aug 15, 2024</time></a></li>
-                        </ul>
-                      </div>
-    
-                      <div class="content">
-                        <p>
-                          Artificial Intelligence (AI) and machine learning are often associated with tech giants and complex industries, but did you know they are also revolutionizing education? AI isn't just for tech giants. It's here to make your academic journey smoother. From personalized learning experiences to efficient project management, AI offers numerous benefits that can help students achieve their academic goals.
-                        </p>
-    
-                        <div class="read-more">
-                          <a href="blog4-details.html">Read More</a>
-                        </div>
-                      </div>
-    
-                    </article>
-                  </div>
-
-                  <div class="col-12">
-                    <article>
-    
-                      <div class="post-img">
-                        <img src="assets/img/blog/3.png" alt="" class="img-fluid">
-                      </div>
-    
-                      <h2 class="title">
-                        <a href="blog3-details.html">Did You Know? Our AI-Driven Solutions Make Project Completion a Breeze! From Data Analysis to Natural Language Processing, We've Got You Covered</a>
-                      </h2>
-    
-                      <div class="meta-top">
-                        <ul>
-                          <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a>Akbar pasha</a></li>
-                          <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a><time datetime="2024-08-14">Aug 14, 2024</time></a></li>
-                        </ul>
-                      </div>
-    
-                      <div class="content">
-                        <p>
-                          In today's fast-paced academic and professional environments, completing projects efficiently and effectively is crucial. Did you know? Our AI-driven solutions make project completion a breeze! From data analysis to natural language processing, we've got you covered. Let's explore how these cutting-edge technologies can transform the way you approach your projects and help you achieve outstanding results.
-                        </p>
-    
-                        <div class="read-more">
-                          <a href="blog3-details.html">Read More</a>
-                        </div>
-                      </div>
-    
-                    </article>
-                  </div>
-                  
-                  <div class="col-12">
-                    <article>
-    
-                      <div class="post-img">
-                        <img src="assets/img/blog/2.jpg" alt="" class="img-fluid">
-                      </div>
-    
-                      <h2 class="title">
-                        <a href="blog2-details.html">New Semester, New Projects! Let Us Help You Achieve Your Academic Goals with Customized Solutions</a>
-                      </h2>
-    
-                      <div class="meta-top">
-                        <ul>
-                          <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a>Akbar pasha</a></li>
-                          <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a><time datetime="2024-08-13">Aug 13, 2024</time></a></li>
-                        </ul>
-                      </div>
-    
-                      <div class="content">
-                        <p>
-                          As a new semester begins, students everywhere are gearing up for fresh challenges and exciting projects. At AkbarTech Dynamics, we understand the importance of staying ahead in the academic game. New semester, new projects! Let us help you achieve your academic goals with customized solutions. #Innovation #StudentLife #AkbarTechDynamics. Dive into the world of innovation and personalized academic support designed to make your student life more successful and fulfilling.</p>
-                        <div class="read-more">
-                          <a href="blog2-details.html">Read More</a>
-                        </div>
-                      </div>
-    
-                    </article>
-                  </div>  
-                      
-                  <div class="col-12">
-                    <article>
-    
-                      <div class="post-img">
-                        <img src="assets/img/blog/1.jpg" alt="blog-1" class="img-fluid">
-                      </div>
-    
-                      <h2 class="title">
-                        <a href="blog1-details.html">The Future of Academic Success with AkbarTech Dynamics</a>
-                      </h2>
-    
-                      <div class="meta-top">
-                        <ul>
-                          <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a>Akbar pasha</a></li>
-                          <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a><time datetime="2024-08-04">Aug 4, 2024</time></a></li>
-                        </ul>
-                      </div>
-    
-                      <div class="content">
-                        <p>
-                            In the fast-paced world of academia, students often face the challenge of keeping up with technological advancements and leveraging them effectively for their academic projects. Welcome to AkbarTech Dynamics! We're here to help you ace your academic projects with cutting-edge technology and personalized solutions. Let's innovate together and unlock your full potential.
-                        </p>
-    
-                        <div class="read-more">
-                          <a href="blog1-details.html">Read More</a>
-                        </div>
-                      </div>
-    
-                    </article>
-                  </div><!-- End post list item -->
-                </div>
-              </div>
+              <!-- Blog posts will be dynamically inserted here -->
             </section>
+            <div id="pagination-controls"></div>
           </div>
 
           <div class="col-lg-4 sidebar">
@@ -414,6 +273,7 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
