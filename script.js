@@ -4,6 +4,14 @@ document.addEventListener('DOMContentLoaded', function() {
 const blogPosts = [
     // Your blog data goes here
     {
+      "id": "10",
+      "title": "Meet the Dream Team! We're Here to Turn Your Academic Challenges into Victories.",
+      "date": "Aug 27, 2024",
+      "image": "assets/img/blog/10.jpg",
+      "summary": "In the ever-evolving academic world, challenges are inevitable. Whether it's tackling complex technical projects, mastering new concepts, or navigating research, the journey can be daunting. But you don't have to face these challenges alone. Meet the dream team! We're here to turn your academic challenges into victories. With our team of dedicated experts by your side, you can overcome any academic hurdle and achieve your goals with confidence.",
+      "link": "blog10-details.html"
+    },
+    {
       "id": "9",
       "title": "Meet Our Team of Experts Dedicated to Helping You Succeed. With Innovation at Our Core, We Provide Top-Notch Academic Support",
       "date": "Aug 26, 2024",
