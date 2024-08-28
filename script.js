@@ -4,6 +4,14 @@ document.addEventListener('DOMContentLoaded', function() {
 const blogPosts = [
     // Your blog data goes here
     {
+      "id": "11",
+      "title": "Wondering How We Customize Solutions for You? Check Out Our Latest Blog Post on Personalized Academic Support",
+      "date": "Aug 28, 2024",
+      "image": "assets/img/blog/11.jpg",
+      "summary": "Every student faces unique challenges throughout their academic journey. These challenges can range from understanding complex topics to managing time effectively while juggling multiple assignments. But with the right support tailored to your specific needs, these challenges can be transformed into stepping stones toward success. Wondering how we customize solutions for you? Check out our latest blog post on personalized academic support. Dive in to learn how our tailored approach ensures that you receive the precise guidance you need to achieve your academic goals.",
+      "link": "blog11-details.html"
+    },
+    {
       "id": "10",
       "title": "Meet the Dream Team! We're Here to Turn Your Academic Challenges into Victories.",
       "date": "Aug 27, 2024",
