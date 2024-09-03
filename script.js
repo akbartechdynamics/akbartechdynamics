@@ -4,6 +4,14 @@ document.addEventListener('DOMContentLoaded', function() {
 const blogPosts = [
     // Your blog data goes here
     {
+      "id": "14",
+      "title": "Relax and Recharge. We'll Handle the Heavy Lifting When It Comes to Your Projects",
+      "date": "Sep 03, 2024",
+      "image": "assets/img/blog/14.jpg",
+      "summary": "In today’s fast-paced world, balancing work, studies, and personal life can be overwhelming. Whether you're a student juggling multiple assignments or a professional managing complex projects, the pressure to deliver high-quality work on time can take its toll. That’s why it’s important to take a step back, relax, and recharge. We'll handle the heavy lifting when it comes to your projects, ensuring that you achieve your goals without burning out. With our expert support, you can focus on what matters most while we take care of the details.",
+      "link": "blog14-details.html"
+    },
+    {
       "id": "13",
       "title": "Take a Break and Recharge. Remember, We're Here to Support You When You're Ready to Get Back to Work",
       "date": "Sep 02, 2024",
