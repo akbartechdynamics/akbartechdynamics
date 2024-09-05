@@ -4,6 +4,14 @@ document.addEventListener('DOMContentLoaded', function() {
 const blogPosts = [
     // Your blog data goes here
     {
+      "id": "16",
+      "title": "Streamline Your Projects with Our Custom Web Applications.",
+      "date": "Sep 05, 2024",
+      "image": "assets/img/blog/16.png",
+      "summary": "In the dynamic world of academia, managing multiple projects efficiently is often a challenging task. From organizing research to collaborating with peers and ensuring deadlines are met, the demands can be overwhelming. That’s where custom web applications come into play. Streamline your projects with our custom web applications. Our tailored solutions are designed to help you manage your academic tasks with ease, improving both your efficiency and performance.",
+      "link": "blog16-details.html"
+    },
+    {
       "id": "15",
       "title": "Our Web Applications Are Designed to Streamline Your Academic Projects. Learn More About How We Can Help!",
       "date": "Sep 04, 2024",
