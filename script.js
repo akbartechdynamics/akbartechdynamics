@@ -4,6 +4,14 @@ document.addEventListener('DOMContentLoaded', function() {
 const blogPosts = [
     // Your blog data goes here
     {
+      "id": "18",
+      "title": "Success Alert! See How We Helped a PhD Student Achieve Their Goals.",
+      "date": "Sep 09, 2024",
+      "image": "assets/img/blog/18.png",
+      "summary": "Achieving a PhD is a monumental task that requires dedication, hard work, and the right support. For many students, the journey can be filled with challenges—from managing extensive research to maintaining focus during the writing process. But with the right tools and guidance, these obstacles can be overcome. Success alert! See how we helped a PhD student achieve their goals. Learn how our AI tools and personalized support can make all the difference in your academic journey.",
+      "link": "blog18-details.html"
+    },
+    {
       "id": "17",
       "title": "Success Story: How We Helped a PhD Student Complete Their Dissertation with Our AI-Driven Tools. Read More!",
       "date": "Sep 06, 2024",
