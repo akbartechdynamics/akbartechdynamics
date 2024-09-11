@@ -4,6 +4,14 @@ document.addEventListener('DOMContentLoaded', function() {
 const blogPosts = [
     // Your blog data goes here
     {
+      "id": "20",
+      "title": "Data Science Made Easy with Our Expert Guidance. Let's Make Data Work for You!",
+      "date": "Sep 11, 2024",
+      "image": "assets/img/blog/20.png",
+      "summary": "Data science is transforming the way we approach problems, make decisions, and drive innovation across industries. However, diving into data science can seem daunting, especially if you’re new to the field or managing a complex project. That’s where we come in. Data science made easy with our expert guidance. Let's make data work for you! With our tailored support and experienced team, we can help you navigate the complexities of data science and unlock its full potential for your academic or professional needs.",
+      "link": "blog20-details.html"
+    },
+    {
       "id": "19",
       "title": "From Ideation to Execution, Our Data Science Experts Are Here to Assist You at Every Step of Your Project",
       "date": "Sep 10, 2024",
