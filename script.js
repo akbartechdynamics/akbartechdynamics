@@ -4,6 +4,14 @@ document.addEventListener('DOMContentLoaded', function() {
 const blogPosts = [
     // Your blog data goes here
     {
+      "id": "26",
+      "title": "Innovation, Integrity, and Customer Satisfaction: Our Core Values at AkbarTech Dynamics",
+      "date": "Sep 24, 2024",
+      "image": "assets/img/blog/26.png",
+      "summary": "At AkbarTech Dynamics, our mission is guided by three fundamental principles: innovation, integrity, and customer satisfaction. These core values shape every decision we make and every service we provide, ensuring that our clients receive unparalleled technology support and solutions. In this article, we explore what these core values mean to us and how they benefit our clients, making AkbarTech Dynamics a leader in the tech support industry.",
+      "link": "blog26-details.html"
+    },
+    {
       "id": "25",
       "title": "Hello! Excited to bring your visions to life? Start your creative journey with Canva. What will we design together today?",
       "date": "Sep 23, 2024",
