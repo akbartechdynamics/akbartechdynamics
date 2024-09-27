@@ -4,6 +4,14 @@ document.addEventListener('DOMContentLoaded', function() {
 const blogPosts = [
     // Your blog data goes here
     {
+      "id": "29",
+      "title": "Comprehensive Tech Solutions for Your Business: From AI to Web Development, We Cover It All",
+      "date": "Sep 27, 2024",
+      "image": "assets/img/blog/29.png",
+      "summary": "In today’s digital-first world, businesses need to stay ahead of the competition with cutting-edge technology. Whether you're looking to implement AI-driven solutions, enhance your website, or transform your IT infrastructure, AkbarTech Dynamics has you covered. We specialize in **comprehensive tech solutions** designed to help businesses innovate, grow, and succeed in a rapidly changing landscape. From artificial intelligence to web development, our team of experts is here to provide the tools and support you need.",
+      "link": "blog29-details.html"
+    },
+    {
       "id": "28",
       "title": "Your One-Stop Solution for All Tech Needs! AkbarTech Dynamics is Here to Help",
       "date": "Sep 26, 2024",
