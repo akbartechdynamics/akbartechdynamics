@@ -4,11 +4,19 @@ document.addEventListener('DOMContentLoaded', function() {
 const blogPosts = [
     // Your blog data goes here
     {
+      "id": "30",
+      "title": "Web and Android App Development That Turns Your Ideas into Reality – Let’s Create Something Amazing!",
+      "date": "Sep 30, 2024",
+      "image": "assets/img/blog/30.png",
+      "summary": "In today’s digital age, having a strong online presence and mobile application is essential for any business looking to succeed. Whether you're launching a startup or expanding an established company, <b>web and Android app development</b> can bring your vision to life and engage your audience like never before. At AkbarTech Dynamics, we specialize in creating dynamic websites and mobile apps that not only look great but also deliver seamless user experiences. Let’s work together to turn your ideas into reality!",
+      "link": "blog30-details.html"
+    },
+    {
       "id": "29",
       "title": "Comprehensive Tech Solutions for Your Business: From AI to Web Development, We Cover It All",
       "date": "Sep 27, 2024",
       "image": "assets/img/blog/29.png",
-      "summary": "In today’s digital-first world, businesses need to stay ahead of the competition with cutting-edge technology. Whether you're looking to implement AI-driven solutions, enhance your website, or transform your IT infrastructure, AkbarTech Dynamics has you covered. We specialize in **comprehensive tech solutions** designed to help businesses innovate, grow, and succeed in a rapidly changing landscape. From artificial intelligence to web development, our team of experts is here to provide the tools and support you need.",
+      "summary": "In today’s digital-first world, businesses need to stay ahead of the competition with cutting-edge technology. Whether you're looking to implement AI-driven solutions, enhance your website, or transform your IT infrastructure, AkbarTech Dynamics has you covered. We specialize in <b>comprehensive tech solutions</b> designed to help businesses innovate, grow, and succeed in a rapidly changing landscape. From artificial intelligence to web development, our team of experts is here to provide the tools and support you need.",
       "link": "blog29-details.html"
     },
     {
