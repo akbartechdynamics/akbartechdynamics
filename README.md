@@ -38,7 +38,6 @@ Welcome to my GitHub profile! I'm Akbar Pasha Mohammad, a proficient developer w
 ## 🌐 Online Presence
 
 - **Freelance Website**: [akbartechdynamics.in](http://akbartechdynamics.in)
-- **Personal Website**: [akbartechdynamics.github.io/acs](https://akbartechdynamics.github.io/acs/)
 - **LinkedIn**: [linkedin.com/in/akbar-pasha-mohammad](https://www.linkedin.com/in/akbar-pasha-mohammad-68b817140?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BzHg28qXKRiK4CuKmvFgPQw%3D%3D)
 
 ## 📫 Get in Touch
